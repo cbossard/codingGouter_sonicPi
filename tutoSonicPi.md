@@ -10,6 +10,7 @@ Pour l'installation sous Linux, voici la documentation : https://github.com/sama
 N'hésitez pas à jeter un oeil à la documentation sur le site officiel de Sonic Pi pour vous familiariser avec l'environnement.
 
 ## Mélodie d'introduction
+Commencez par copier/coller le code suivant dans l'éditeur Sonic pi
 
 ```
 # Paramétrage
@@ -19,11 +20,14 @@ use_synth :pulse
 use_synth_defaults release: 0.2, mod_rate: 5, amp: 0.6
 
 ## Mélodie d'introduction
-## les notes sont représentées par la notation anglosaxonne.
+## les notes sont représentées par la notation "batave".
+## (A = la, B = si, C = do, D = ré, E = mi, F = fa, G = sol)
 ## "nil" représente une pause
 play_pattern_timed([:e5,:e5,nil,:e5,nil,:c5,:e5,nil,
                     :g5,nil,nil,nil,nil,nil,nil,nil], [0.25])
 ```
+Jouez la mélodie en cliquant sur "Run" (bouton en haut à gauche).
+
 
 ## Et la suite de la mélodie
 
