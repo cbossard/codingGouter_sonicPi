@@ -93,8 +93,8 @@ play_pattern_timed([:f5,:e5,:d5], [1/3.0])
 play_pattern_timed([:g5,:e5,nil,:e5,:c5,nil,nil,nil], [0.25])
 ```
 
-Chouette, on a tous les bouts de la mélodie ! Par contre, certaines portions doivent être présentes plusieurs fois.
-Pour cela, nous allons regrouper les différentes parties du thème dans des fonctions que nous pourrons appeler plusieurs fois.
+Chouette, on a tous les bouts de la mélodie ! Par contre, si on exécute le code, on constate que certaines portions devraient être présentes plusieurs fois.
+Pour cela, nous allons regrouper les différentes parties du thème dans des fonctions que nous pourrons appeler une ou plusieurs fois.
 
 ## Factorisation
 
