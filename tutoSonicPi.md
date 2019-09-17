@@ -99,7 +99,8 @@ Pour cela, nous allons regrouper les différentes parties du thème dans des fon
 ## Factorisation
 
 On définit une méthode en la définissant telle que :
-```nomDeLaFonction = -> {
+```
+nomDeLaFonction = -> {
     # ce qu'on veut mettre à l'intérieur
 }
 ```
@@ -166,9 +167,9 @@ theme_d = -> {
 
 ```
 
-Si on joue notre code tel quel, rien ne se passe. Nous n'avons que définit les fonctions sans les appeler.
+Si on joue notre code tel quel, rien ne se passe. Nous avons définit les fonctions sans les appeler.
 Nous allons donc les appeler, une ou plusieurs fois chacune pour obtenir la mélodie finale.
-Ajouter les appels suivants à la fin du code :
+Ajoutez les appels suivants à la fin du code :
 
 ```
 1.times { intro.call }
@@ -263,7 +264,7 @@ use_synth :pulse
 use_synth_defaults release: 0.2, mod_rate: 5, amp: 0.6
 
 in_thread do
-  # ...
+  # Copier ici le contenu de la mélodie ...
 end
 ```
 
@@ -379,4 +380,4 @@ in_thread do
   end
 end
 ```
-Et voilà ! Nous avons réussit à reproduire le thème de Mario :-)
+Et voilà ! Plus qu'à lancer l'exécution du code, et nous avons réussit à reproduire le thème de Mario :-)
